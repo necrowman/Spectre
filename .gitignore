@@ -1,6 +1,6 @@
 .build/
 Packages/
-*.xcodeproj
+#*.xcodeproj
 IntegrationTests/Failing-dot-output.txt
 IntegrationTests/Failing-output.txt
 IntegrationTests/Failing-tap-output.txt
