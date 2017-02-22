@@ -28,7 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		442BEA031E5C736B00186197 /* SpectreIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpectreIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		442BEA031E5C736B00186197 /* Spectre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Spectre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		442BEA061E5C736B00186197 /* Spectre.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Spectre.h; sourceTree = "<group>"; };
 		442BEA071E5C736B00186197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		442BEA0E1E5C7D3800186197 /* Case.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		442BEA041E5C736B00186197 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				442BEA031E5C736B00186197 /* SpectreIOS.framework */,
+				442BEA031E5C736B00186197 /* Spectre.framework */,
 				445B16E11E5DD6FF00C1F279 /* SpectreOSX.framework */,
 			);
 			name = Products;
@@ -137,9 +137,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		442BEA021E5C736B00186197 /* SpectreIOS */ = {
+		442BEA021E5C736B00186197 /* Spectre */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 442BEA0B1E5C736B00186197 /* Build configuration list for PBXNativeTarget "SpectreIOS" */;
+			buildConfigurationList = 442BEA0B1E5C736B00186197 /* Build configuration list for PBXNativeTarget "Spectre" */;
 			buildPhases = (
 				442BE9FE1E5C736B00186197 /* Sources */,
 				442BE9FF1E5C736B00186197 /* Frameworks */,
@@ -150,9 +150,9 @@
 			);
 			dependencies = (
 			);
-			name = SpectreIOS;
+			name = Spectre;
 			productName = Spectre;
-			productReference = 442BEA031E5C736B00186197 /* SpectreIOS.framework */;
+			productReference = 442BEA031E5C736B00186197 /* Spectre.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		445B16E01E5DD6FF00C1F279 /* SpectreOSX */ = {
@@ -205,7 +205,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				442BEA021E5C736B00186197 /* SpectreIOS */,
+				442BEA021E5C736B00186197 /* Spectre */,
 				445B16E01E5DD6FF00C1F279 /* SpectreOSX */,
 			);
 		};
@@ -456,7 +456,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		442BEA0B1E5C736B00186197 /* Build configuration list for PBXNativeTarget "SpectreIOS" */ = {
+		442BEA0B1E5C736B00186197 /* Build configuration list for PBXNativeTarget "Spectre" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				442BEA0C1E5C736B00186197 /* Debug */,
@@ -472,6 +472,7 @@
 				445B16E71E5DD6FF00C1F279 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
