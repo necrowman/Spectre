@@ -16,7 +16,6 @@
 		442BEA1B1E5C7D3800186197 /* GlobalContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442BEA131E5C7D3800186197 /* GlobalContext.swift */; };
 		442BEA1C1E5C7D3800186197 /* Reporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442BEA141E5C7D3800186197 /* Reporter.swift */; };
 		442BEA1D1E5C7D3800186197 /* Reporters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442BEA151E5C7D3800186197 /* Reporters.swift */; };
-		442BEA361E5C828B00186197 /* SpectreIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442BEA031E5C736B00186197 /* SpectreIOS.framework */; };
 		445B16E51E5DD6FF00C1F279 /* Spectre-osx.h in Headers */ = {isa = PBXBuildFile; fileRef = 445B16E31E5DD6FF00C1F279 /* Spectre-osx.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		445B16E91E5DD70900C1F279 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442BEA0E1E5C7D3800186197 /* Case.swift */; };
 		445B16EA1E5DD70900C1F279 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442BEA0F1E5C7D3800186197 /* Context.swift */; };
@@ -50,7 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				442BEA361E5C828B00186197 /* SpectreIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
