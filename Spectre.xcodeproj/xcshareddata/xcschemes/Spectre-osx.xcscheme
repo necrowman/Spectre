@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "445B16E01E5DD6FF00C1F279"
-               BuildableName = "Spectre-osx.framework"
-               BlueprintName = "Spectre-osx"
+               BuildableName = "Spectre-Mac.framework"
+               BlueprintName = "Spectre-Mac"
                ReferencedContainer = "container:Spectre.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "445B16E01E5DD6FF00C1F279"
-            BuildableName = "Spectre-osx.framework"
-            BlueprintName = "Spectre-osx"
+            BuildableName = "Spectre-Mac.framework"
+            BlueprintName = "Spectre-Mac"
             ReferencedContainer = "container:Spectre.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "445B16E01E5DD6FF00C1F279"
-            BuildableName = "Spectre-osx.framework"
-            BlueprintName = "Spectre-osx"
+            BuildableName = "Spectre-Mac.framework"
+            BlueprintName = "Spectre-Mac"
             ReferencedContainer = "container:Spectre.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
