@@ -16,7 +16,7 @@
 		442BEA1B1E5C7D3800186197 /* GlobalContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442BEA131E5C7D3800186197 /* GlobalContext.swift */; };
 		442BEA1C1E5C7D3800186197 /* Reporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442BEA141E5C7D3800186197 /* Reporter.swift */; };
 		442BEA1D1E5C7D3800186197 /* Reporters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442BEA151E5C7D3800186197 /* Reporters.swift */; };
-		442BEA361E5C828B00186197 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442BEA031E5C736B00186197 /* Spectre.framework */; };
+		442BEA361E5C828B00186197 /* SpectreIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442BEA031E5C736B00186197 /* SpectreIOS.framework */; };
 		445B16E51E5DD6FF00C1F279 /* Spectre-osx.h in Headers */ = {isa = PBXBuildFile; fileRef = 445B16E31E5DD6FF00C1F279 /* Spectre-osx.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		445B16E91E5DD70900C1F279 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442BEA0E1E5C7D3800186197 /* Case.swift */; };
 		445B16EA1E5DD70900C1F279 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442BEA0F1E5C7D3800186197 /* Context.swift */; };
@@ -29,7 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		442BEA031E5C736B00186197 /* Spectre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Spectre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		442BEA031E5C736B00186197 /* SpectreIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpectreIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		442BEA061E5C736B00186197 /* Spectre.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Spectre.h; sourceTree = "<group>"; };
 		442BEA071E5C736B00186197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		442BEA0E1E5C7D3800186197 /* Case.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				442BEA361E5C828B00186197 /* Spectre.framework in Frameworks */,
+				442BEA361E5C828B00186197 /* SpectreIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +76,7 @@
 		442BEA041E5C736B00186197 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				442BEA031E5C736B00186197 /* Spectre.framework */,
+				442BEA031E5C736B00186197 /* SpectreIOS.framework */,
 				445B16E11E5DD6FF00C1F279 /* SpectreOSX.framework */,
 			);
 			name = Products;
@@ -139,9 +139,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		442BEA021E5C736B00186197 /* Spectre */ = {
+		442BEA021E5C736B00186197 /* SpectreIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 442BEA0B1E5C736B00186197 /* Build configuration list for PBXNativeTarget "Spectre" */;
+			buildConfigurationList = 442BEA0B1E5C736B00186197 /* Build configuration list for PBXNativeTarget "SpectreIOS" */;
 			buildPhases = (
 				442BE9FE1E5C736B00186197 /* Sources */,
 				442BE9FF1E5C736B00186197 /* Frameworks */,
@@ -152,9 +152,9 @@
 			);
 			dependencies = (
 			);
-			name = Spectre;
+			name = SpectreIOS;
 			productName = Spectre;
-			productReference = 442BEA031E5C736B00186197 /* Spectre.framework */;
+			productReference = 442BEA031E5C736B00186197 /* SpectreIOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		445B16E01E5DD6FF00C1F279 /* SpectreOSX */ = {
@@ -207,7 +207,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				442BEA021E5C736B00186197 /* Spectre */,
+				442BEA021E5C736B00186197 /* SpectreIOS */,
 				445B16E01E5DD6FF00C1F279 /* SpectreOSX */,
 			);
 		};
@@ -458,7 +458,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		442BEA0B1E5C736B00186197 /* Build configuration list for PBXNativeTarget "Spectre" */ = {
+		442BEA0B1E5C736B00186197 /* Build configuration list for PBXNativeTarget "SpectreIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				442BEA0C1E5C736B00186197 /* Debug */,
